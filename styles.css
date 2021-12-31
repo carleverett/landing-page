@@ -1,5 +1,14 @@
+.header-cont{
+    display: flex;
+}
+
 .header{
+    height: 50px;
+    width: 100%;
+    margin: -10px;
+    border: 0;
     background-color: #1f2937;
+    flex: 1 1 auto;
 }
 
 .header-logo{
@@ -15,10 +24,6 @@
 .top-main{
     color: #f9faf8;
     font-size: 48px;
-}
-
-.top-text{
-    color: 
 }
 
 .button{
