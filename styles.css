@@ -1,0 +1,43 @@
+.header{
+    background-color: #1f2937;
+}
+
+.header-logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.second-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.top-main{
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.top-text{
+    color: 
+}
+
+.button{
+    background-color: #3882f6;
+}
+
+.img-header{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote-bk{
+    background-color: #e5e7eb;
+}
+
+.quote-text{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}
