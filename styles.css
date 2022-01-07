@@ -1,5 +1,5 @@
 *{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html, body{
@@ -116,9 +116,9 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height:25%;
+    height:500px;
     margin: 0px 200px;
-    padding: 200px;
+    padding: 100px 200px;
 }
 
 .mid-hdr{
@@ -145,6 +145,7 @@ html, body{
 .mid-text{
     height: 150px;
     width: 150px;
+    text-align: center;
     flex: 1 1 auto;
 }
 
@@ -160,6 +161,45 @@ html, body{
     flex-direction: row;
     justify-content: center;
     gap: 75px;
+}
+
+.quote-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:lightgrey;
+    height: 600px;
+}
+
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: left;
+    font-style: italic;
+    margin: 100px 100px 0px 100px;
+    padding: 100px 400px 0px 400px;
+    flex:1 1 auto;
+}
+
+.author{
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+    margin: 0px 100px;
+    padding: 0px 400px 100px 400px;
+    flex: 1 1 auto;
+
+}
+
+.cta-box{
+    background-color: #f9faf8;
+}
+
+.cta{
+    background-color: #3882f6;
+    color: #f9faf8; 
 }
 /*
 .header-cont{
