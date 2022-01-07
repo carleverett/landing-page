@@ -17,8 +17,8 @@ html, body{
     height: 500px;
     width: 100%;
     background-color: #1f2937;
-    margin: -20px 0 0 0;
-    padding: 0px 100px 100px 100px;
+    margin: 0;
+    padding: 0px;
     border-color: #1f2937;
     flex: 1 1 auto;
 }
@@ -195,12 +195,60 @@ html, body{
 
 .cta-box{
     background-color: #f9faf8;
+    padding: 100px 300px 100px 300px;
+    height: 300px;
+    gap: 100px;
 }
 
 .cta{
     background-color: #3882f6;
     color: #f9faf8; 
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0px 50px 0px 50px;
+    gap: 200px;
 }
+.cta-header{
+    font-size: 18px;
+    margin: 50px 50px 0px 0px;
+    padding: 0;
+}
+
+.cta-text{
+    font-size: 14px;
+    margin: 10px 50px 50px 0px;
+    padding: 0;
+}
+
+.cta-left{
+    padding: 0px 50px 0px 50px;
+    justify-content: center;
+}
+
+.cta-right{
+    justify-content: center;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+.button2{
+    height: 50px;
+    width: 150px;
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #e5e7eb;
+    justify-content: center;
 /*
 .header-cont{
     display: flex;
